@@ -97,7 +97,7 @@ experiences:
       company: Technische Universität Berlin, Germany
       
     - role: Reviewer
-      time: 2016, 2018, 2021
+      time: 2016 - 2021
       company: ACM SIGMOD (2016, 2018, 2021), VLDB (2016, 2018-2021), KDD (2017-2021), ICDE (2020-2021), EDBT (2018), IEEE TKDE (2016)
       
     - role: Scholarship
@@ -155,7 +155,7 @@ publications:
          conference: SIGMOD, 2021
          details: Developed a graph pattern cardinality estimator that combines both sampling and synopses (C++).
          
-       - title: Natural language to SQL: Where are we today?
+       - title: Natural language to SQL\: Where are we today?
          link: http://www.vldb.org/pvldb/vol13/p1737-kim.pdf
          authors: Hyeonji Kim, Byeong-Hoon So, Wook-Shin Han, Hongrae Lee
          conference: VLDB, 2020
