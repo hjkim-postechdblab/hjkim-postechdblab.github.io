@@ -155,7 +155,7 @@ publications:
          conference: SIGMOD, 2021
          details: Developed a graph pattern cardinality estimator that combines both sampling and synopses (C++).
          
-       - title: Natural language to SQL\: Where are we today?
+       - title: "Natural language to SQL: Where are we today?"
          link: http://www.vldb.org/pvldb/vol13/p1737-kim.pdf
          authors: Hyeonji Kim, Byeong-Hoon So, Wook-Shin Han, Hongrae Lee
          conference: VLDB, 2020
