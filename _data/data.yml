@@ -7,17 +7,17 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Hyuk-kyu Kang
+    name: Hyeonji Kim
     tagline: PhD Student in Database & Data Mining Lab
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hkkang@dblab.postech.ac.kr
+    email: hjkim@dblab.postech.ac.kr
     phone: 054-xxx-xxxx
 #    website: blog.webjeda.com #do not add http://
 #    linkedin: alandoe
 #    xing: alandoe
-    github: hyukyu
+    github: hjkim-postechdblab
 #    telegram: # add your nickname without '@' sign
 #    gitlab:
 #    bitbucket:
@@ -27,13 +27,22 @@ sidebar:
 #    goodreads: # Number-Username, e.g. 123456-alandoe
 
     interests:
-      - item: Machine Learning
-        link:
-
       - item: Natural Language Processing
         link:
 
-      - item: Deep Learning Application
+      - item: Database Query Processing
+        link:
+
+      - item: Deep Learning
+        link:
+        
+      - item: Graph Databases
+        link:
+        
+      - item: Graph Data Analysis
+        link:
+        
+      - item: Big Data Processing
         link:
 
     languages:
@@ -46,12 +55,12 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      I am a Ph.D. Student in the Dept. Computer Science and Engineering at Pohang University of Science and Technology (POSTECH). I am doing research under the supervision of Professor Wook-Shin Han.
+      My research interests range from large-scale graph data analytics (such as disk-based subgraph matching, distributed graph analytics, and graph pattern cardinality estimation) to natural language processing with deep learning. Recently, I am committed to develop techniques for translating natural language to SQL (NL2SQL) and conversational systems for databases.
       
 education:
-    - degree: Ph.D in Computer Science
+    - degree: Ph.D in IT Engineering (Major: Computer Science and Engineering)
       university: Pohang University of Science of Technology (POSTECH)
-      time: 2019 - present
+      time: 2016.2 - present
 #       details: |
 #         Describe your study here lorem ipsum dolor sit amet, consectetuer
 #         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -60,9 +69,9 @@ education:
 #         pretium quis, sem.
 #           - Bullet point
 #           - Bullet point
-    - degree: B.S in Computer Science
+    - degree: B.S in Creative IT Engineering (Magna Cum Laude)
       university: Pohang University of Science of Technology (POSTECH)
-      time: 2015 - 2019
+      time: 2012.3 - 2016.2
 #       details: |
 #         Describe your study here lorem ipsum dolor sit amet, consectetuer
 #         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -72,17 +81,11 @@ education:
 #           - Bullet point
 #           - Bullet point
 experiences:
-    - role: Ph.D. in Computer Science and Engineering
-      time: 2019 - present
-      company: Pohang University of Science of Technology (POSTECH)
+    - role: Full-time Internship
+      time: 2015.12 - 2016.3
+      company: Oracle Labs, CA, USA
+      details: Participated in Parallel Graph AnalytiX (PGX) project: Performance analysis and tuning of graph analytics and graph queries in large-scale graphs on a distributed graph engine, and efficient graph partitioning for a distributed graph engine, PGX/D
 
-    - role: B.S. in Computer Science and Engineering
-      time: 2015 - 2019
-      company: Pohang University of Science of Technology (POSTECH)
-
-    - role: Intern
-      time: 2018.6 - 2018.8
-      company: Netmarble, Seoul Korea
 #       details:  
 #           I was in the AI research team. I developed AI agents for mobile strategy games
 #         Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -123,6 +126,22 @@ experiences:
 
 publications:
     title: Publications
+    papers:
+       - title: Combining Sampling and Synopses with Worst-Case Optimal Runtime And Quality Guarantees for Graph Pattern Cardinality Estimation
+         link: https://dl.acm.org/doi/pdf/10.1145/3448016.3457246
+         authors: Kyoungmin Kim, Hyeonji Kim, George Fletcher, Wook-Shin Han
+         conference: SIGMOD, 2021
+         
+       - title: Natural language to SQL: Where are we today?
+         link: http://www.vldb.org/pvldb/vol13/p1737-kim.pdf
+         authors: Hyeonji Kim, Byeong-Hoon So, Wook-Shin Han, Hongrae Lee
+         conference: VLDB, 2020
+         
+       - title: DualSim: Parallel Subgraph Enumeration in a Massive Graph on a Single Machine
+         link: https://dl.acm.org/doi/pdf/10.1145/2882903.2915209
+         authors: Hyeonji Kim, Juneyoung Lee, Sourav S. Bhowmick, Wook-Shin Han, JeongHoon Lee, Seongyun Ko, Moath H.A. Jarrah
+         conference: SIGMOD, 2016
+         
 #     intro: 
           
 #    intro: |
