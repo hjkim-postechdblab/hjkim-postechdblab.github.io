@@ -88,7 +88,7 @@ experiences:
       details: Participated in Parallel Graph AnalytiX (PGX) project: Performance analysis and tuning of graph analytics and graph queries in large-scale graphs on a distributed graph engine, and efficient graph partitioning for a distributed graph engine, PGX/D
 
     - role: Teaching Assistant
-      time: 2017, 2019, 2020
+      time: 2017 - 2020
       company: Samsung Electronics
       details: Data programming course (Apr. 2020), Advanced data expert course (July. 2019 – Nov. 2019), Data foundation course (Oct. 2017)
 
@@ -100,28 +100,8 @@ experiences:
 experiences:
     title: Awards and Academic Activities
     - role: Reviewer
-      time: 2016, 2018, 2021
-      company: ACM SIGMOD
-      
-    - role: Reviewer
-      time: 2016, 2018 - 2021
-      company: VLDB
-
-    - role: Reviewer
-      time: 2017-2021
-      company: KDD
-      
-    - role: Reviewer
-      time: 2020-2021
-      company: ICDE
-      
-    - role: Reviewer
-      time: 2018
-      company: EDBT
-      
-    - role: Reviewer
-      time: 2016
-      company: IEEE TKDE
+      time: 2016 - 2021
+      company: ACM SIGMOD (2016, 2018, 2021), VLDB (2016, 2018-2021), KDD (2017-2021), ICDE (2020-2021), EDBT (2018), IEEE TKDE (2016)
       
     - role: Scholarship
       time: 2016
@@ -176,19 +156,19 @@ publications:
          link: https://dl.acm.org/doi/pdf/10.1145/3448016.3457246
          authors: Kyoungmin Kim, Hyeonji Kim, George Fletcher, Wook-Shin Han
          conference: SIGMOD, 2021
-#         details: Developed a graph pattern cardinality estimator that combines both sampling and synopses (C++).
+         details: Developed a graph pattern cardinality estimator that combines both sampling and synopses (C++).
          
        - title: Natural language to SQL: Where are we today?
          link: http://www.vldb.org/pvldb/vol13/p1737-kim.pdf
          authors: Hyeonji Kim, Byeong-Hoon So, Wook-Shin Han, Hongrae Lee
          conference: VLDB, 2020
-#         details: Provided an in-depth analysis on 10+ recent NL2SQL techniques and proposed a new validation tool for NL2SQL evaluation (Python).
+         details: Provided an in-depth analysis on 10+ recent NL2SQL techniques and proposed a new validation tool for NL2SQL evaluation (Python).
          
        - title: DualSim: Parallel Subgraph Enumeration in a Massive Graph on a Single Machine
          link: https://dl.acm.org/doi/pdf/10.1145/2882903.2915209
          authors: Hyeonji Kim, Juneyoung Lee, Sourav S. Bhowmick, Wook-Shin Han, JeongHoon Lee, Seongyun Ko, Moath H.A. Jarrah
          conference: SIGMOD, 2016
-#         details: Designed and developed a disk-based, single machine parallel solution for subgraph enumeration in large-scale graphs (C++).
+         details: Designed and developed a disk-based, single machine parallel solution for subgraph enumeration in large-scale graphs (C++).
          
 #     intro: 
           
