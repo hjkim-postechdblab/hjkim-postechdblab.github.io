@@ -58,7 +58,7 @@ career-profile:
       My research interests range from large-scale graph data analytics (such as disk-based subgraph matching, distributed graph analytics, and graph pattern cardinality estimation) to natural language processing with deep learning. Recently, I am committed to develop techniques for translating natural language to SQL (NL2SQL) and conversational systems for databases.
       
 education:
-    - degree: Ph.D in IT Engineering (Major: Computer Science and Engineering)
+    - degree: Ph.D in IT Engineering (Computer Science and Engineering)
       university: Pohang University of Science of Technology (POSTECH)
       time: 2016.2 - present
 #       details: |
@@ -100,7 +100,7 @@ experiences:
 experiences:
     title: Awards and Academic Activities
     - role: Reviewer
-      time: 2016 - 2021
+      time: 2016, 2018, 2021
       company: ACM SIGMOD (2016, 2018, 2021), VLDB (2016, 2018-2021), KDD (2017-2021), ICDE (2020-2021), EDBT (2018), IEEE TKDE (2016)
       
     - role: Scholarship
