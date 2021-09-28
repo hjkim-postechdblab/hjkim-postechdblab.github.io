@@ -161,7 +161,7 @@ publications:
          conference: VLDB, 2020
          details: Provided an in-depth analysis on 10+ recent NL2SQL techniques and proposed a new validation tool for NL2SQL evaluation (Python).
          
-       - title: DualSim: Parallel Subgraph Enumeration in a Massive Graph on a Single Machine
+       - title: "DualSim: Parallel Subgraph Enumeration in a Massive Graph on a Single Machine"
          link: https://dl.acm.org/doi/pdf/10.1145/2882903.2915209
          authors: Hyeonji Kim, Juneyoung Lee, Sourav S. Bhowmick, Wook-Shin Han, JeongHoon Lee, Seongyun Ko, Moath H.A. Jarrah
          conference: SIGMOD, 2016
