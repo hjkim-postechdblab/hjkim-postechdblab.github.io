@@ -1,0 +1,48 @@
+{% assign industry = site.data.data.industry %}
+{% if industry %}
+<section class="section industry-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-rocket fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ industry.title }}
+  </h2>
+
+  {% for item in industry.items %}
+  <div class="item">
+
+    <div class="upper-row">
+      <h3 class="job-title">{{ item.title }}</h3>
+      {% if item.time or industry.period %}
+      <div class="time">{{ item.time | default: industry.period }}</div>
+      {% endif %}
+    </div><!--//upper-row-->
+
+    {% if item.role %}
+    <div class="company">{{ item.role }}</div>
+    {% endif %}
+
+    {% if item.summary %}
+    <div class="details">
+      {{ item.summary | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+    {% if item.highlights %}
+    <ul class="highlight-list">
+      {% for highlight in item.highlights %}
+      <li>
+        <span class="highlight-title">{{ highlight.title }}</span>
+        {{ highlight.details }}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

@@ -8,12 +8,12 @@ sidebar:
 
     # Profile information
     name: Hyeonji Kim
-    tagline: Postdoctoral Fellow, Database & Data Mining Lab (DSLAB), POSTECH
+    tagline: AI Engineer (Manager), AI Innovation Center, Meritz Fire & Marine Insurance
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: xiahholic5@gmail.com
-    cv: Hyeonji_Kim_CV_final.pdf # PDF placed in the repository root
+    cv: Hyeonji_Kim_CV_2026.pdf # PDF placed in the repository root
 #    phone: 054-xxx-xxxx
 #    website: blog.webjeda.com #do not add http://
 #    linkedin: alandoe
@@ -28,6 +28,15 @@ sidebar:
 #    goodreads: # Number-Username, e.g. 123456-alandoe
 
     interests:
+      - item: Large Language Models
+        link:
+
+      - item: LLM Agents
+        link:
+
+      - item: Retrieval-Augmented Generation
+        link:
+
       - item: Natural Language Processing
         link:
 
@@ -38,9 +47,6 @@ sidebar:
         link:
 
       - item: Graph Databases
-        link:
-
-      - item: Graph Data Analysis
         link:
 
       - item: Big Data Processing
@@ -56,16 +62,19 @@ sidebar:
 career-profile:
     title: Research Interests
     summary: |
-      - **LLM-driven data systems & agents:** dataset curation, augmentation, and
-        distillation for domain adaptation and fine-tuning; tool-augmented agents for
-        grounded reasoning and action.
-      - **Data systems for ML:** reproducible data/feature pipelines, end-to-end
-        measurement, and model-in-the-loop monitoring.
+      - **Domain-specialized LLM agents:** multi-agent orchestration, intent decomposition
+        and routing, and grounded tool use for high-stakes domains (insurance, finance).
+      - **Retrieval-augmented generation (RAG) systems:** domain-organized index design,
+        semantic chunking, hybrid retrieval, and principled evaluation (LLM-as-a-judge,
+        regression testing) for production QA systems.
+      - **LLM-driven data systems:** dataset curation, augmentation, and distillation for
+        domain adaptation and fine-tuning; tool-augmented agents for grounded reasoning
+        and action.
+      - **Natural-language interfaces to databases:** robust dataset augmentation/cleaning
+        and principled evaluation for NL2SQL, and multi-turn dialogue systems to databases.
       - **Large-scale retrieval & indexing:** hierarchical and multi-vector embeddings,
         cross-modal (text–image) retrieval, time-aware search, and approximate nearest
         neighbor (ANN) methods.
-      - **Natural-language interfaces to databases:** robust dataset augmentation/cleaning
-        and principled evaluation for NL2SQL, and multi-turn dialogue systems to databases.
       - **Event-centric intelligence:** detecting and modeling real-world events from news,
         social media, and enterprise data for downstream analytics and decision support.
 
@@ -81,8 +90,15 @@ education:
       time: 2012.3 - 2016.2
 
 experiences:
+    title: Appointments
+    positions:
+    - role: AI Engineer (Manager)
+      time: 2026.2 - present
+      company: AI Innovation Center, Meritz Fire & Marine Insurance
+      details: Research and development of LLM-based agent systems for insurance sales and claims support.
+
     - role: Postdoctoral Fellow
-      time: 2024.8 - present
+      time: 2024.8 - 2026.1
       company: Database & Data Mining Lab (DSLAB), POSTECH
 
     - role: Full-time Research Intern
@@ -90,26 +106,53 @@ experiences:
       company: Oracle Labs (PGX team), CA, USA
       details: Participated in the Parallel Graph AnalytiX (PGX) project - performance analysis and tuning of graph analytics and graph queries on large-scale graphs in a distributed graph engine, and efficient graph partitioning for the distributed graph engine PGX/D.
 
-    - role: Teaching Assistant / Instructor Support
-      time: 2017 - 2020
-      company: Samsung Electronics
-      details: Data Programming Course (Apr. 2020), Advanced Data Expert Course (Jul. 2019 – Nov. 2019), Data Foundation Course (Oct. 2017).
+industry:
+    title: Industry Experience — Meritz Fire & Marine Insurance
+    period: 2026.2 - present
+    items:
+      - title: "MeAI: AI Sales Assistant for Insurance Planners"
+        role: AI Engineer, AI Innovation Center
+        summary: >
+          MeAI is an in-production AI sales assistant that answers insurance planners' (FPs')
+          questions on coverage, claims, underwriting, sales strategy, and internal operations,
+          grounded in company policy documents and enterprise data.
+        highlights:
+          - title: Agent architecture redesign (intent-graph multi-agent system)
+            details: >
+              Redesigned the query-processing pipeline from a single unidirectional planner
+              into an intent-graph architecture: a router decomposes a multi-intent user query
+              into a dependency graph of intents and dispatches each intent to domain-specialized
+              expert agents (e.g., claims/coverage, underwriting, sales support), executing
+              independent intents in parallel while propagating results along dependencies and
+              synthesizing a single coherent answer - enabling compound questions that the
+              previous planner could not handle.
 
-    - role: Exchange Student
-      time: 2015.3 - 2015.8
-      company: Technische Universität Berlin, Germany
+          - title: Retrieval index design for domain-specialized RAG
+            details: >
+              Reorganized retrieval corpora into domain-organized indexes with semantic-unit
+              chunking; condensed lengthy policy documents into coverage-level summary units and
+              connected coverages to standardized disease/procedure classification codes,
+              substantially improving retrieval precision for grounded answers.
+
+          - title: Evaluation and quality infrastructure
+            details: >
+              Built automated quality assurance for LLM agents: pre-deployment regression gates
+              that evaluate the exact release artifact, and nightly automated evaluation with
+              LLM-as-a-judge scoring and day-over-day regression detection, with results persisted
+              for monitoring. Established label-free evaluation methodology and expert-in-the-loop
+              gold-set construction for coverage-analysis QA.
 
 projects:
     title: Research Projects (Selected)
     assignments:
       - title: Methodology for Extracting Notable Stocks from Domestic Economic News Using Generative AI
         role: Project Lead
-        time: 2025.4 - present
+        time: 2025.4 - 2026.1
         details: High-level pipeline for event detection and stock candidate surfacing (research prototype). Responsibilities - project lead, problem formulation, evaluation design, and coordination with the industry partner.
 
       - title: SW StarLab "Development of a Conversational and Self-Tuning DBMS"
         role: Project Lead
-        time: 2018 - present
+        time: 2018 - 2026.1
         details: Led efforts to make DBMSs usable to non-experts by building a natural-language interface to databases and automatic physical/knob tuning that simplifies performance optimization for practitioners. Responsibilities included NL2SQL modeling, dataset curation/augmentation, and evaluation infrastructure for robust QA over RDBMS.
 
       - title: Smart Structuring of Large-Scale Dark Data
@@ -124,19 +167,16 @@ publications:
          link: https://dl.acm.org/doi/pdf/10.1145/3448016.3457246
          authors: Kyoungmin Kim, Hyeonji Kim, George Fletcher, Wook-Shin Han
          conference: ACM SIGMOD, 2021
-         details: Developed a graph pattern cardinality estimator that combines both sampling and synopses (C++).
 
        - title: "Natural Language to SQL: Where Are We Today?"
          link: http://www.vldb.org/pvldb/vol13/p1737-kim.pdf
          authors: Hyeonji Kim, Byeong-Hoon So, Wook-Shin Han, Hongrae Lee
          conference: PVLDB 13(10):1737–1750, 2020
-         details: Provided an in-depth analysis of 10+ recent NL2SQL techniques and proposed a new validation tool for NL2SQL evaluation (Python).
 
-       - title: "DualSim: Parallel Subgraph Enumeration in a Massive Graph on a Single Machine"
+       - title: "DUALSIM: Parallel Subgraph Enumeration in a Massive Graph on a Single Machine"
          link: https://dl.acm.org/doi/pdf/10.1145/2882903.2915209
          authors: Hyeonji Kim, Juneyoung Lee, Sourav S. Bhowmick, Wook-Shin Han, JeongHoon Lee, Seongyun Ko, Moath H. A. Jarrah
          conference: ACM SIGMOD, 2016
-         details: Designed and developed a disk-based, single-machine parallel solution for subgraph enumeration in large-scale graphs (C++).
 
 patents:
     title: International Patents
@@ -162,20 +202,32 @@ honors:
       - title: POSTECH–SUNY Korea IT Consilience Creative Program (ITCCP) Scholarship
         time: 2012 - 2020
 
+teaching:
+    title: Teaching & Mentoring
+    items:
+      - role: Instructor, Corporate Lecture Series on Retrieval-Augmented Generation and Agentic AI
+        time: 2026
+        details: Four sessions with hands-on labs - IR fundamentals; RAG foundations; Advanced RAG; Agentic RAG & Evaluation.
+
+      - role: Teaching Assistant / Instructor Support
+        time: 2017 - 2020
+        company: Samsung Electronics
+        details: Data Foundation (Oct 2017), Advanced Data Expert Course (Jul–Nov 2019), Data Programming Course (Apr 2020).
+
 service:
     title: Reviewing Service
     items:
       - venue: ACM SIGMOD
-        years: 2016, 2018, 2021-2022, 2026
+        years: 2016, 2018, 2021–2022, 2026
 
       - venue: VLDB
-        years: 2016, 2018-2021, 2025
+        years: 2016, 2018–2021, 2025
 
       - venue: KDD
-        years: 2017-2021
+        years: 2017–2021
 
       - venue: ICDE
-        years: 2020-2021
+        years: 2020–2021
 
       - venue: EDBT
         years: 2018

@@ -240,6 +240,25 @@ p {
         }
     }
 
+    .industry-section {
+        .item {
+            margin-bottom: 30px;
+        }
+    }
+
+    .highlight-list {
+        margin: 10px 0 0;
+        padding-left: 18px;
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .highlight-title {
+            font-weight: 500;
+            color: darken($theme-color, 15%);
+        }
+    }
+
     // Keep long titles clear of the absolutely positioned date on the right.
     .upper-row {
         .job-title, .degree, .project-title {
