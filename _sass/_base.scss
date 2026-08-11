@@ -254,8 +254,9 @@ p {
             line-height: 1.6;
         }
         .highlight-title {
-            font-weight: 500;
+            font-weight: 700;
             color: darken($theme-color, 15%);
+            margin-right: 2px;
         }
     }
 
