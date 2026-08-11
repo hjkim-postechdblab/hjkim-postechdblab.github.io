@@ -3,16 +3,17 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Hyeonji Kim
-    tagline: Post Doctoral Fellow in Database & Data Mining Lab
+    tagline: Postdoctoral Fellow, Database & Data Mining Lab (DSLAB), POSTECH
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: hjkim@dblab.postech.ac.kr
+    cv: Hyeonji_Kim_CV_final.pdf # PDF placed in the repository root
 #    phone: 054-xxx-xxxx
 #    website: blog.webjeda.com #do not add http://
 #    linkedin: alandoe
@@ -35,13 +36,13 @@ sidebar:
 
       - item: Deep Learning
         link:
-        
+
       - item: Graph Databases
         link:
-        
+
       - item: Graph Data Analysis
         link:
-        
+
       - item: Big Data Processing
         link:
 
@@ -53,158 +54,160 @@ sidebar:
         level: Professional
 
 career-profile:
-    title: About Me
+    title: Research Interests
     summary: |
-      My research interests range from large-scale graph data analytics (such as disk-based subgraph matching, distributed graph analytics, and graph pattern cardinality estimation) to natural language processing with deep learning. Recently, I am committed to develop techniques for translating natural language to SQL (NL2SQL) and conversational systems for databases.
-      
+      - **LLM-driven data systems & agents:** dataset curation, augmentation, and
+        distillation for domain adaptation and fine-tuning; tool-augmented agents for
+        grounded reasoning and action.
+      - **Data systems for ML:** reproducible data/feature pipelines, end-to-end
+        measurement, and model-in-the-loop monitoring.
+      - **Large-scale retrieval & indexing:** hierarchical and multi-vector embeddings,
+        cross-modal (text–image) retrieval, time-aware search, and approximate nearest
+        neighbor (ANN) methods.
+      - **Natural-language interfaces to databases:** robust dataset augmentation/cleaning
+        and principled evaluation for NL2SQL, and multi-turn dialogue systems to databases.
+      - **Event-centric intelligence:** detecting and modeling real-world events from news,
+        social media, and enterprise data for downstream analytics and decision support.
+
 education:
-    - degree: Ph.D in IT Engineering (Computer Science and Engineering)
-      university: Pohang University of Science of Technology (POSTECH)
-      time: 2016.2 - present
-#       details: |
-#         Describe your study here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#         sociis natoque penatibus et magnis dis parturient montes, nascetur
-#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#         pretium quis, sem.
-#           - Bullet point
-#           - Bullet point
-    - degree: B.S in Creative IT Engineering (Magna Cum Laude)
-      university: Pohang University of Science of Technology (POSTECH)
+    - degree: Ph.D., Convergence IT Engineering (Integrated M.S.–Ph.D.)
+      university: Pohang University of Science and Technology (POSTECH)
+      time: 2016.3 - 2024.8
+      details: |
+        Dissertation: "Systematic Data Augmentation and Cleaning Techniques to Improve
+        Text-to-SQL Models." Advisor: Prof. Wook-Shin Han.
+    - degree: B.S., Creative IT Engineering (Magna Cum Laude)
+      university: Pohang University of Science and Technology (POSTECH)
       time: 2012.3 - 2016.2
-#       details: |
-#         Describe your study here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#         sociis natoque penatibus et magnis dis parturient montes, nascetur
-#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#         pretium quis, sem.
-#           - Bullet point
-#           - Bullet point
 
 experiences:
-    - role: Full-time Internship
-      time: 2015.12 - 2016.3
-      company: Oracle Labs, CA, USA
-      details: Participated in Parallel Graph AnalytiX (PGX) project - Performance analysis and tuning of graph analytics and graph queries in large-scale graphs on a distributed graph engine, and efficient graph partitioning for a distributed graph engine, PGX/D
+    - role: Postdoctoral Fellow
+      time: 2024.8 - present
+      company: Database & Data Mining Lab (DSLAB), POSTECH
 
-    - role: Teaching Assistant
+    - role: Full-time Research Intern
+      time: 2015.12 - 2016.3
+      company: Oracle Labs (PGX team), CA, USA
+      details: Participated in the Parallel Graph AnalytiX (PGX) project - performance analysis and tuning of graph analytics and graph queries on large-scale graphs in a distributed graph engine, and efficient graph partitioning for the distributed graph engine PGX/D.
+
+    - role: Teaching Assistant / Instructor Support
       time: 2017 - 2020
       company: Samsung Electronics
-      details: Data programming course (Apr. 2020), Advanced data expert course (July. 2019 – Nov. 2019), Data foundation course (Oct. 2017)
+      details: Data Programming Course (Apr. 2020), Advanced Data Expert Course (Jul. 2019 – Nov. 2019), Data Foundation Course (Oct. 2017).
 
-    - role: Reviewer
-      time: 2016 - 2021
-      company: ACM SIGMOD (2016, 2018, 2021), VLDB (2016, 2018-2021), KDD (2017-2021), ICDE (2020-2021), EDBT (2018), IEEE TKDE (2016)
-      
-    - role: Scholarship
-      time: 2016
-      company: Google Anita Borg Scholars APAC
-      
-    - role: Scholarship
-      time: 2012 - 2020
-      company: POSTECH-SUNY Korea IT Consilience Creative Program (ITCCP)
-      
     - role: Exchange Student
       time: 2015.3 - 2015.8
       company: Technische Universität Berlin, Germany
-      
-#       details:  
-#           I was in the AI research team. I developed AI agents for mobile strategy games
-#         Describe your role here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-#         Cum sociis natoque penatibus et magnis dis parturient montes,
-#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
-#         pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-#         enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-#         error sit voluptatem accusantium doloremque laudantium, totam rem
-#         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-#         architecto beatae vitae dicta sunt explicabo.
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
+projects:
+    title: Research Projects (Selected)
+    assignments:
+      - title: Methodology for Extracting Notable Stocks from Domestic Economic News Using Generative AI
+        role: Project Lead
+        time: 2025.4 - present
+        details: High-level pipeline for event detection and stock candidate surfacing (research prototype). Responsibilities - project lead, problem formulation, evaluation design, and coordination with the industry partner.
 
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: SW StarLab "Development of a Conversational and Self-Tuning DBMS"
+        role: Project Lead
+        time: 2018 - present
+        details: Led efforts to make DBMSs usable to non-experts by building a natural-language interface to databases and automatic physical/knob tuning that simplifies performance optimization for practitioners. Responsibilities included NL2SQL modeling, dataset curation/augmentation, and evaluation infrastructure for robust QA over RDBMS.
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Smart Structuring of Large-Scale Dark Data
+        role: Project Lead
+        time: 2017
+        details: Developed a machine-learning-based framework to convert unstructured enterprise "Dark Data" into structured data. Delivered workflow components (preprocessing, candidate-set mapping, feature extraction, supervised learning and inference), a pilot on public job announcements, and an end-to-end automation plan including SQL/Python APIs.
 
 publications:
-    title: Publications
+    title: Publications (Selected)
     papers:
-       - title: Combining Sampling and Synopses with Worst-Case Optimal Runtime And Quality Guarantees for Graph Pattern Cardinality Estimation
+       - title: Combining Sampling and Synopses with Worst-Case Optimal Runtime and Quality Guarantees for Graph Pattern Cardinality Estimation
          link: https://dl.acm.org/doi/pdf/10.1145/3448016.3457246
          authors: Kyoungmin Kim, Hyeonji Kim, George Fletcher, Wook-Shin Han
-         conference: SIGMOD, 2021
+         conference: ACM SIGMOD, 2021
          details: Developed a graph pattern cardinality estimator that combines both sampling and synopses (C++).
-         
-       - title: "Natural language to SQL: Where are we today?"
+
+       - title: "Natural Language to SQL: Where Are We Today?"
          link: http://www.vldb.org/pvldb/vol13/p1737-kim.pdf
          authors: Hyeonji Kim, Byeong-Hoon So, Wook-Shin Han, Hongrae Lee
-         conference: VLDB, 2020
-         details: Provided an in-depth analysis on 10+ recent NL2SQL techniques and proposed a new validation tool for NL2SQL evaluation (Python).
-         
+         conference: PVLDB 13(10):1737–1750, 2020
+         details: Provided an in-depth analysis of 10+ recent NL2SQL techniques and proposed a new validation tool for NL2SQL evaluation (Python).
+
        - title: "DualSim: Parallel Subgraph Enumeration in a Massive Graph on a Single Machine"
          link: https://dl.acm.org/doi/pdf/10.1145/2882903.2915209
-         authors: Hyeonji Kim, Juneyoung Lee, Sourav S. Bhowmick, Wook-Shin Han, JeongHoon Lee, Seongyun Ko, Moath H.A. Jarrah
-         conference: SIGMOD, 2016
-         details: Designed and developed a disk-based, single machine parallel solution for subgraph enumeration in large-scale graphs (C++).
-         
-#     intro: 
-          
-#    intro: |
-#      You can list your publications in this section. Lorem ipsum dolor sit
-#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#      bibendum fringilla a eu lectus.
-#    papers:
-#      - title: The Art of Computer Programming
-#        link: "#"
-#        authors: Donald E. Knuth
-#        conference: Addison-Wesley, 1968
+         authors: Hyeonji Kim, Juneyoung Lee, Sourav S. Bhowmick, Wook-Shin Han, JeongHoon Lee, Seongyun Ko, Moath H. A. Jarrah
+         conference: ACM SIGMOD, 2016
+         details: Designed and developed a disk-based, single-machine parallel solution for subgraph enumeration in large-scale graphs (C++).
 
-# skills:
-#     title: Skills &amp; Proficiency
+patents:
+    title: International Patents
+    items:
+      - title: Method for Enhancing Learning Data Set in Natural Language Processing System
+        inventors: Wook-Shin Han, Hyuk-Kyu Kang, Hyeonji Kim
+        reference: U.S. App. No. 18/725,248, June 2024
 
-#     toolset:
-#       - name: Python & Django
-#         level: 98%
+      - title: Apparatus and Method for Processing Natural Language Query about Relational Database Using Transformer Neural Network
+        inventors: Wook-Shin Han, Hyuk-Kyu Kang, Hyeonji Kim
+        reference: U.S. App. No. 17/964,807, Oct 2022
 
-#       - name: Javascript & jQuery
-#         level: 98%
+      - title: Column and Table Prediction Method for Text-to-SQL Query Translation Based on a Neural Network
+        inventors: Wook-Shin Han, In-Hyuk Na, Hyeonji Kim, Hyuk-Kyu Kang
+        reference: PCT/KR2019/018491, Dec 2019
 
-#       - name: Angular
-#         level: 98%
+honors:
+    title: Honors & Scholarships
+    items:
+      - title: Google Anita Borg Scholars APAC
+        time: 2016
 
-#       - name: HTML5 & CSS
-#         level: 95%
+      - title: POSTECH–SUNY Korea IT Consilience Creative Program (ITCCP) Scholarship
+        time: 2012 - 2020
 
-#       - name: Ruby on Rails
-#         level: 85%
+service:
+    title: Reviewing Service
+    items:
+      - venue: ACM SIGMOD
+        years: 2016, 2018, 2021-2022, 2026
 
-#       - name: Sketch & Photoshop
-#         level: 60%
+      - venue: VLDB
+        years: 2016, 2018-2021, 2025
 
-Reference:
-    title: Reference
-    intro: |
-        Prof. Wook-Shin Han (Ph.D. Advisor), Full Professor, POSTECH, South Korea (wshan@dblab.postech.ac.kr) 
+      - venue: KDD
+        years: 2017-2021
 
-# footer: >
-#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - venue: ICDE
+        years: 2020-2021
+
+      - venue: EDBT
+        years: 2018
+
+      - venue: IEEE TKDE
+        years: 2016
+
+skills:
+    title: Programming Proficiency
+
+    toolset:
+      - name: Python (Expert)
+        level: 95%
+
+      - name: C++ (Expert)
+        level: 95%
+
+      - name: SQL (Expert)
+        level: 95%
+
+      - name: Java (Advanced)
+        level: 80%
+
+      - name: JavaScript (Working proficiency)
+        level: 60%
+
+      - name: R (Working proficiency)
+        level: 60%
+
+      - name: CUDA C/C++ (Working proficiency)
+        level: 60%
+
+footer: >
+    &copy; 2026 Hyeonji Kim &middot; Last updated August 2026 &middot;
+    Theme designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

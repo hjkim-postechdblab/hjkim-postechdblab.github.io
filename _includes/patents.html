@@ -1,0 +1,28 @@
+{% assign patents = site.data.data.patents %}
+{% if patents %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ patents.title }}
+  </h2>
+
+  {% for patent in patents.items %}
+  <div class="item">
+    <h3 class="publication-title">
+      {% if patent.link %}
+      <a href="{{ patent.link }}" target="_blank">{{ patent.title }}</a>
+      {% else %}
+      {{ patent.title }}
+      {% endif %}
+    </h3>
+    <div class="publication-authors">{{ patent.inventors }}</div>
+    <div class="publication-conference">{{ patent.reference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

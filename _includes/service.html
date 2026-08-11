@@ -1,0 +1,23 @@
+{% assign service = site.data.data.service %}
+{% if service %}
+<section class="section service-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ service.title }}
+  </h2>
+
+  {% for entry in service.items %}
+  <div class="item service-item">
+    <div class="upper-row">
+      <h3 class="job-title">{{ entry.venue }}</h3>
+      <div class="time">{{ entry.years }}</div>
+    </div><!--//upper-row-->
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

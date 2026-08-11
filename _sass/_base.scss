@@ -233,6 +233,25 @@ p {
             margin-bottom: 15px;
         }
     }
+
+    .honors-section, .service-section {
+        .item {
+            margin-bottom: 10px;
+        }
+    }
+
+    // Keep long titles clear of the absolutely positioned date on the right.
+    .upper-row {
+        .job-title, .degree, .project-title {
+            padding-right: 130px;
+        }
+    }
+
+    .details {
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 
